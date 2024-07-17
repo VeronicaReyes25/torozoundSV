@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Play:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Play" , sans-serif;
+    color: white;
+    background-color: black;
+}
+/* nav */
+
+.logo-pic{
+    margin-left: 90px;
+    margin-top:  20px;
+   }
+  
+   .links{
+      margin-right: 40px;
+    margin-top: 2cqi;
+  
+   }
+  
+
+.title{
+    font-family: "Orbitron" , sans-serif;
+}
+
+.nav-main{
+   
+
+    background-color: black;
+}
+
+.active{
+    color: #D71462;
+}
