@@ -1,73 +1,213 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- Compiled and minified CSS -->
-      <link rel="stylesheet" href="./styles/global.css">
-      <link rel="stylesheet" href="./styles/Playlist.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <title>Playlist | Torozound</title>
-</head>
-<body>
-    <!--main navbar-->
-    
-    <nav>
-        <div class="nav-wrapper nav-main">
-          <a href="#" class="brand-logo logo-pic"><img src="./src/logo-white.svg" alt="torozounflogo"></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down ">
-            <li ><a class="links" href="index.html">Inicio</a></li>
-            <li><a  class="links" href="#">Novedades</a></li>
-            <li><a  class="links active" href="#">Playlist</a></li>
-            <li><a  class="links" href="#">Genero</a></li>
-            <li><a  class="links"  href="#">Albums</a></li>
-          </ul>
-        </div>
-      </nav>
-     <!--main hero-->
-     <br><br><br><br><br><br><br>
-      <!--main hero-->
-      <main>
-        <div class="container-hero">
-          <img src="src/hero-img.png" alt="">
-          
-          <div class="hero-text">
-            <br>
-            <h1>Descubre las playlist de tus artistas favoritos</h1>
-            <p>
-                Encuentra variedad de listas de reproducción ya sea por tu artista favorito o por tu estado de animo
-            </p> <br>
-            <button> Explorar Playlists Torozound</button>
-          </div>
-        </div>
-      </main>
-            <br><br><br><br>
-     <!--Footer-->
-     <footer class="page-footer footerbg">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <img src="./src/logo-white.svg" alt="torozounflogo" width="200px">
-            <h5 class="white-text">Somos el primer espacio donde puedes encontrar música 100% Salvadoreña</h5>
-          <button class="btn-footer">Contáctanos</button>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Dirección</h5>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="#!">4a calle Poniente
-                San Miguel, EL Salvador</a></li>
-             
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-        © 2024 Copyright 
-        </div>
-      </div>
-    </footer>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Torozound | Playlist</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/style.css">
+		<link rel="icon" type="image/svg+xml" href="/public/favi.svg" />
+  </head>
+  <body>
+    <main>
+      <header class="header-main">
+        <img src="/public/logo.svg" alt="Logo">
+        <nav>
+          <a href="index.html">Inicio</a>
+          <a href="">Novedades</a>
+          <a href="" class='select'>Playlist</a>
+          <a href="">Generos</a>
+          <a href="">Albums</a>
+        </nav>
+      </header>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-</body>
+      <section class="hero-section">
+        <div class="hero-text">
+          <p class="main">Conoce las <span>Playlist</span> </p>
+          <p class="sub">Encuentra tu mood ideal con playlist ...</p>
+        </div>
+        <img src="/public/hero-img.webp" alt="hero">
+      </section>
+
+      <section class="card-section">
+        <article class="singer-card">
+          <div class="image-card">
+            <img src="/public/singers/maritorivera.webp" alt="cantante" class="object-cover h-[168px]"/>
+          </div>
+          <div class="text-card">
+            <p class="singer-name">Marito Rivera Éxitos</p>
+            <p class="singer-song">20 canciones</p>
+          </div>
+        </article>
+
+        <article class="singer-card">
+          <div class="image-card">
+            <img src="/public/singers/gabytobar.webp" alt="cantante" class="object-cover h-[168px]"/>
+          </div>
+          <div class="text-card">
+            <p class="singer-name">Gaby Tobar</p>
+            <p class="singer-song">20 canciones</p>
+          </div>
+        </article>
+
+        <article class="singer-card">
+          <div class="image-card">
+            <img src="/public/singers/nahummolina.webp" alt="cantante" class="object-cover h-[168px]"/>
+          </div>
+          <div class="text-card">
+            <p class="singer-name">Nahum Molina</p>
+            <p class="singer-song">20 canciones</p>
+          </div>
+        </article>
+
+        <article class="singer-card">
+          <div class="image-card">
+            <img src="/public/singers/patymendez.webp" alt="cantante" class="object-cover h-[168px]"/>
+          </div>
+          <div class="text-card">
+            <p class="singer-name">Paty Menéndez</p>
+            <p class="singer-song">20 canciones</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="play-section">
+        <div class="table-songs">
+          <h2>Marito Rivera Éxitos</h2>
+          <table>
+            <th>
+            </th>
+            <tbody>
+              <tr>
+                <td class="flex">
+                  <div class="flex">
+                    <img src="/public/icons/PlayIconLight.svg" alt="cantante" class="object-cover h-[168px]"/>
+                    Nombre Canción
+                  </div>
+                    <img src="/public/icons/YoutubeIcon.svg" alt="cantante" class="object-cover h-[168px]"/>
+                </td>
+              </tr>
+              <tr>
+                <td class="flex">
+                  <div class="flex">
+                    Nombre Canción
+                  </div>
+                  <img src="/public/icons/YoutubeIcon.svg" alt="cantante" class="object-cover h-[168px]"/>
+                </td>
+              </tr>
+              <tr>
+                <td class="flex">
+                  <div class="flex">
+                    Nombre Canción
+                  </div>
+                  <img src="/public/icons/YoutubeIcon.svg" alt="cantante" class="object-cover h-[168px]"/>
+                </td>
+              </tr>
+              <tr>
+                <td class="flex">
+                  <div class="flex">
+                    Nombre Canción
+                  </div>
+                  <img src="/public/icons/YoutubeIcon.svg" alt="cantante" class="object-cover h-[168px]"/>
+                </td>
+              </tr>
+              <tr>
+                <td class="flex">
+                  <div class="flex">
+                    Nombre Canción
+                  </div>
+                  <img src="/public/icons/YoutubeIcon.svg" alt="cantante" class="object-cover h-[168px]"/>
+                </td>
+              </tr>
+              <tr>
+                <td class="flex">
+                  <div class="flex">
+                    Nombre Canción
+                  </div>
+                  <img src="/public/icons/YoutubeIcon.svg" alt="cantante" class="object-cover h-[168px]"/>
+                </td>
+              </tr>
+              <tr>
+                <td class="flex">
+                  <div class="flex">
+                    Nombre Canción
+                  </div>
+                  <img src="/public/icons/YoutubeIcon.svg" alt="cantante" class="object-cover h-[168px]"/>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card-songs">
+          <h2>Recomendamos que escuches</h2>
+          <div class="grid">
+            <article class="card-horizontal-large grid-item-1">
+              <div>
+                <p class="singer-name">Marito Rivera Éxitos</p>
+                <p class="singer-song">20 canciones</p>
+                <img src="/public/icons/PlayDarkIcon.svg" alt="play"/>
+              </div>
+              <div>
+                <img src="/public/singers/maritorivera.webp" alt="cantante"/>
+              </div>
+            </article>
+
+            <article class="card-horizontal-small">
+              <div>
+                <p class="singer-name">Gaby Tobar</p>
+                <p class="singer-song">20 canciones</p>
+                <img src="/public/icons/PlayDarkIcon.svg" alt="play"/>
+              </div>
+                <img src="/public/singers/gabytobar.webp" alt="cantante"/>
+            </article>
+
+            <article class="card-horizontal-small">
+              <div>
+                <p class="singer-name">Hermanos Flores</p>
+                <p class="singer-song">30 canciones</p>
+                <img src="/public/icons/PlayDarkIcon.svg" alt="play"/>
+              </div>
+                <img src="/public/singers/hflores.webp" alt="cantante"/>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer-container">
+        <div class="footer-content">
+          <div class="left-section">
+            <img src="/public/logo.svg" alt="Logo" height="55px" width="180px"/>
+            <p class="main-text">Somos el primer espacio donde puedes encontrar música 100% Salvadoreña</p>
+            <p class="sub-text">¿Deseas que tu música tenga visibilidad en Torozound?</p>
+            <div class="contact-button-container">
+              <button class="contact-button">Contáctanos</button>
+            </div>
+          </div>
+          <div class="right-section">
+            <div class="address-section">
+              <p class="address-title">DIRECCIÓN</p>
+              <div class="address-details">
+                <p class="address-line">4a calle Poniente</p>
+                <p class="address-line">San Miguel, EL Salvador</p>
+              </div>
+              <p class="copyright">© 2024 — Copyright</p>
+            </div>
+            <div class="social-media-section">
+              <p class="social-media-title">SIGUENOS</p>
+              <div class="social-media-buttons">
+                <img src="/public/icons/InstagramButton.svg" alt="Instagram" />
+                <img src="/public/icons/WhatssapButton.svg" alt="Whatssap" />
+                <img src="/public/icons/TelegramButton.svg" alt="Telegram" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+    </main>
+    <script src="" async defer></script>
+  </body>
 </html>
