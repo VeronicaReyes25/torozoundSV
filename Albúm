@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albumes</title>
+    <style>
+        table, tr, td{
+            border: white 2px solid
+        }
+    </style>
+</head>
+<body style="background-color: #0e3640; ">
+    <h1 style="text-align:center; color: white;">Albumes</h1>
+    <center>
+    <table style="border-spacing: 15px;">
+        <tr>
+<td>
+    <img src="img/lo bueno y lo mejor.jpeg" alt="">
+    <h3>Lo nuevo y lo mejor</h3>
+    <h4>Álvaro Torres
+    </h4>
+</td>
+<td>
+    <img src="img/Oro Sólido.jpeg" alt="">
+    <h3>"La Morena"</h3>
+    <h4> Oro Sólido
+    </h4>
+</td>
+<td>
+    <img src="img/espiritu libre.jpeg" alt="">
+    <h3>Espíritu Libre</h3>
+    <h4>Jhosse Lora
+    </h4>
+</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/descarga (5).jpeg" alt="">
+                <h3>Salsalvador All Stars</h3>
+                <h4>Salsalvador All Stars
+                </h4>
+            </td>
+            <td>
+                <img src="img/Oro Sólido.jpeg" alt="">
+                <h3>"La Morena"</h3>
+                <h4> Oro Sólido
+                </h4>
+            </td>
+            <td>
+                <img src="img/espiritu libre.jpeg" alt="">
+                <h3>Espíritu Libre</h3>
+                <h4>Jhosse Lora
+                </h4>
+            </td>
+                    </tr>
+
+
+    </table>
+</center>
+</body>
+</html>
