@@ -16,154 +16,217 @@
     <table style="border-spacing: 15px;">
         <tr>
 <td>
+    {
+        <div class="album-card">
+
+        </div>
+    }
+    <background-color: id="1f2a36;
+    border: 2px solid white;
+    border-radius:8px;
+    text-align:center;
+    width:200px;
+}
+.Albumes-contaier {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:15px;
+    padding: 200px
+
+}
+.album-card img {
+    background-color: #1f2a36
+    border:2px solid white;
+    border-radius:8px;
+    text-align: center;
+    width:200px;
+    padding:10px;
+
+
+}
+<style>
+    <head>
+
+    text-align:center;
+</style>
+<body>
+<h1>Albúmes</h1>
+<div class="Albumes-contaier">
+    <div class="album-card"></div>
+
+</background-color:>
     <img src="img/lo bueno y lo mejor.jpeg" alt="">
     <h3>Lo nuevo y lo mejor</h3>
     <h4>Álvaro Torres
     </h4>
-</td>
-<td>
+</div>
+
+</div class= "album-card">
+<img src="img/juvenrud.jpeg" alt="">
+<h3>juventud</h3>
+<h4>Alirio guerra
+</h4>
+</div>
+
+   </div class= "album-card">
+   <img src="img/tamarindo.jpeg" alt="">
+   <h3> El tamarindo </h3>
+    <h4>Rene alonso y su banda lasser 
+   </h4>
+   </div>
+
+</div class= "album-card">
     <img src="img/Oro Sólido.jpeg" alt="">
     <h3>"La Morena"</h3>
     <h4> Oro Sólido
     </h4>
-</td>
-<td>
+</div>
+
     <img src="img/espiritu libre.jpeg" alt="">
     <h3>Espíritu Libre</h3>
     <h4>Jhosse Lora
     </h4>
-       </td>
-       <td>
+</div>
+</div class= "album-card">
                 <img src="img/descarga (5).jpeg" alt="">
                 <h3>Salsalvador All Stars</h3>
                 <h4>Salsalvador All Stars
                 </h4>
-            </td>
-            <td>
+            </div>
+        </div class= "album-card">
                 <img src="img/La Bala.jpeg" alt="">
                 <h3>La bala</h3>
                 <h4> Orquesta san Vicente
                 </h4>
-            </td>
-            <td>
+            </div>
+        </div class= "album-card">
                 <img src="img/Cumbia Caliente.jpeg" alt="">
                 <h3>Cumbia Caliente</h3>
                 <h4> Orquesta Premier
                 </h4>
-        
-                </td>
-                <td>
-                    <img src="img/Daniel.jpg" alt="">
+            </div>
+        </div class= "album-card">
+                    <img src="img/Rucks Parker 2.jpeg" alt="">
                     <h3>Una Noche Más</h3>
                     <h4>  Rucks Parker
                     </h4>
-                </td>
-                <td>
+                </div>
+            </div class= "album-card">
                     <img src="img/rafa.jpeg" alt="">
                     <h3>"Amor de Mi Vida"</h3>
                     <h4>Rafa Guillén
 
                     </h4>
-                </td>
-                <td>
+                </div>
+            </div class= "album-card">
                     <img src="img/Lluvia de Estrellas.jpeg" alt="">
                                 <h3>Lluvia de Estrellas</h3>
                                 <h4> Ricardo Solé
                                 </h4>
-                            </td>
-                            <td>
+                            </div>
+                        </div class= "album-card">
                                 <img src="img/Roberto Salamanca.jpeg" alt="">
                                 <h3>Fiesta tropical</h3>
                                 <h4> Roberto Salamanca
                                 </h4>
                            
-                            </td>
-                            <td>
+                            </div>
+                        </div class= "album-card">
                                 <img src="img/Inevitable.jpeg" alt="">
                                 <h3> Inevitable</h3>
                                 <h4>Vanessa García
                                 </h4>
-                            </td>
-                            <td>
+                            </div>
+                        </div class= "album-card">
                                 <img src="img/serie 20 exitos.jpeg" alt="">
                                 <h3>serie 20 exitos</h3>
                                 <h4>Los Hermanos Flores
                                 </h4>
-                            </td>
-                            <td>
+                            </div>
+                        </div class= "album-card">
                                 <img src="img/Positiva Resistenci.jpeg" alt="">
                                 <h3>Positiva Resistencia</h3>
                                 <h4>Los Tachos
                                 </h4>
-                            </td>
-                            <td>
+                            </div>
+                        </div class= "album-card">
                                 <img src="img/Las 20 Románticas de Marito Rivera.jpeg" alt="">
                                 <h3>Las 20 Románticas de Marito Rivera</h3>
                                 <h4> Marito Rivera y su Grupo Bravo
                                 </h4>
-                            </td>
-                            <td>
+                            </div>
+                        </div class= "album-card">
                                 <img src="img/El botecito.jpeg" alt="">
                                 <h3>El botecito</h3>
                                 <h4> Alfredo José
                                 </h4>
-                            </td>
-                            <td>
+                            </div>
+                        </div class= "album-card">
                                 <img src="img/Bachata Rosa Cover.jpeg" alt="">
                                 <h3>Bachata Rosa Cover</h3>
                                 <h4>Ale Martore
                                 </h4>
-                            </td>
-                            <td>
+                            </div>
+                        </div class= "album-card">
                                 <img src="img/Las De Antes.jpeg" alt="">
                                 <h3>Las de antes</h3>
                                 <h4>Ale Medina GTM
                                 </h4>
-                            </td>
-                            <td>
+                            </div>
+                        </div class= "album-card">
                                 <img src="img/Eskiniando.jpeg" alt="">
                                 <h3>Eskiniando</h3>
                                 <h4>Eskina Opuesta
                                 </h4>
-                            </td>
-                            <td>
+                            </div>
+                        </div class= "album-card">
                                 <img src="img/Love Is Here.jpeg" alt="">
                                 <h3>Love is here</h3>
                                 <h4>Fredd Moz
                                 </h4>
-                            </td>
-                            <td>
+                            </div>
+                        </div class= "album-card">
                                 <img src="img/No lo Niegues Corazón.jpeg" alt="">
                                 <h3>No lo Niegues Corazón</h3>
                                 <h4>Fredy Zelada
                                 </h4>
-                            </td>
-                            <td>
+                            </div>
+                        </div class= "album-card">
                                 <img src="img/Yellow Fever.jpeg" alt="">
                                 <h3>Yellow Fever</h3>
                                 <h4>Fiebre Amarilla
                                 </h4>
-                            </td>
-                            <td>
+                            </div>
+                        </div class= "album-card">
                                 <img src="img/Manifiesto De Año Nuevo.jpeg" alt="">
                                 <h3>Manifiesto De Año Nuevo</h3>
                                 <h4>Frigüey
                                 </h4>
-                            </td>
-                            <td>
+                            </div>
+                        </div class= "album-card">
                                 <img src="img/Steven Rodríguez.jpeg" alt="">
                                 <h3>El mundo es tuyo</h3>
                                 <h4>TH musica
                                 </h4>
-                            </td>
-                            <td>
+                            </div>
+                        </div class= "album-card">
                                 <img src="img/El hijo de don Andrés.jpeg" alt="">
                                 <h3>El hijo de don Andrés</h3>
                                 <h4>Tito Flores
                                 </h4>
-                            </td>
-                            <td>
+                            </div>
+                        </div class= "album-card">
                                 <img src="img/“Feliz Navidad”, José Feliciano.jpeg" alt="">
                                 <h3>“Feliz Navidad”, José Feliciano</h3>
                                 <h4>Tito Mra
                                 </h4>
+                          
+                
+        
+
+
+    </table>
+</center>
+</body>
+</html>
