@@ -33,7 +33,7 @@ body {
 
 .header-main nav {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   font-weight: 700;
   font-family: 'Orbitron Variable', sans-serif;
 }
@@ -82,6 +82,9 @@ body {
   gap: 20px;
   padding-left: 5%;
   padding-right: 5%;
+}
+.card-section a {
+  text-decoration: none;
 }
 .card-section .singer-card {
   width: 232px;
@@ -260,6 +263,106 @@ body {
   height: 38px;
 }
 
+.artistas-section h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-family: "Orbitron Variable", sans-serif;
+  display: inline-block;
+}
+.artistas-section .titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.artistas-section .buscador {
+  display: flex;
+  justify-content: space-between;
+  gap: 1%;
+  width: 50%;
+  align-items: center;
+  padding-right: 5%;
+}
+.artistas-section .buscador input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 20px;
+  font-family: "Play", sans-serif;
+  font-size: 16px;
+}
+.artistas-section .buscador button {
+  background: #D71462;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-family: "Play", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.artistas{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.artistas .singer-card {
+  width: 232px;
+  height: 262px;
+  background: #560C46;
+  border-radius: 34px;
+  overflow: hidden;
+}
+.artistas .singer-card .image-card {
+  display: flex;
+  justify-content: center;
+}
+.artistas .singer-card .image-card img {
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+  height: 168px;
+}
+
+.artistas .singer-card .text-card {
+  display: flex;
+  flex-direction: column;
+  background: #1D1D1D87;
+  height: 100%;
+}
+
+.artistas .singer-card .text-card .singer-name{
+  color: #ffffff;
+  font-family: "Play", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+.artistas .singer-card .text-card .singer-song{
+  color: #ffffff;
+  font-family: "Play", sans-serif;
+  opacity: 0.8;
+  padding-left: 10px;
+  margin-top: -10px;
+}
+
+.card-section .singer-card .text-card a{
+  text-decoration: none;
+}
+
+.artistas a {
+  text-decoration: none;
+}
 .footer-container {
   display: flex;
   justify-content: space-between;
