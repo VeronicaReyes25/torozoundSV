@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                         <link href="style.css" rel="stylesheet" type="text/css" />
+                               <link rel="preconnect" href="https://fonts.googleapis.com">
+             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+             <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Orbitron:wght@400..900&family=Play:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&display=swap" rel="stylesheet">
+  
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Orbitron:wght@400..900&family=Play:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&display=swap" rel="stylesheet">
+
+    <title>Novedades</title>
+   <link rel="shorcut icon" type="image/x-icon" href="Imagenes/favicon.ico">
+  
+</head>
+
+<body>
+  
+
+  <table summary="Últimos lanzamientos de tus artistas favoritos">
+    <div= title-1>
+      <h1>Últimos lanzamientos de tus artistas favoritos</h1>
+         </div>
+    
+    
+    <thead>
+      <tr>
+        <th scope="col">Agrupación</th>
+        <th scope="col">Nombre del lanzamiento</th>
+        <th scope="col">Lanzamiento</th>
+        <th scope="col">Formas de escucharlo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Fredd Moz</th>
+        <td>Tears I Cry </td>
+        <td>2024</td>
+        <td><button  class="fancy-button"> <button class="boton">
+          <img src="Imagenes/SpotifyButton.png" alt="Imagen del botón">
+        </button>
+          
+          <a href="https://open.spotify.com/track/3suB4dQ2IrCGC8PAzLIKWr">Spotify </a></button></td>
+      </tr>
+      <tr>
+        <th scope="row">Rucks Parker</th>
+        <td>Siempre son las seis</td>
+        <td>2024</td>
+        <td><button  class="fancy-button"><a href="https://open.spotify.com/album/4vMG1IMdtiKHhlNzsRPrlv">Spotify </a></button></td>
+      </tr>
+
+      <tr>
+        <th scope="row">Eskina Opuesta</th>
+        <td>La diva</td>
+        <td>2023</td>
+        <td><button  class="fancy-button"><a href="https://open.spotify.com/album/3GmgffUt5vb3nkQ9RsHOsp">Spotify </a></button></td>
+      </tr>
+       
+      <tr>
+        <th scope="row">Frigüey</th>
+        <td>Manifiesto de año nuevo</td>
+        <td>2023</td>
+        <td><button  class="fancy-button"><a href="hhttps://open.spotify.com/album/3Ox2kXG03SyM6pQfdulzC3">Spotify </a></button></td>
+      </tr>
+       
+      <tr>
+        <th scope="row">Orquesta Premier</th>
+        <td>Sabor a carnaval </td>
+        <td>2023</td>
+        <td><button  class="fancy-button"><a href="https://open.spotify.com/album/70d7yiAaVlkaNqf7TrKJHK">Spotify </a></button></td>
+      </tr>
+       
+      <tr>
+        <th scope="row">Roberto Salamanca </th>
+        <td>Una historia que contar-Album</td>
+        <td>2023</td>
+        <td><button  class="fancy-button"><a href="https://open.spotify.com/album/4ql8RQ6lyRhwRmQrEw2UzS">Spotify </a></button></td>
+      </tr>
+       
+      <tr>
+        <th scope="row">Vanessa García </th>
+        <td>City of Love</td>
+        <td>2023</td>
+        <td><button  class="fancy-button"><a href="Spotify: https://open.spotify.com/album/0Xw0R6STXtuu7agTjhIeHr">Spotify </a></button></td>
+      </tr>
+       
+      <tr>
+        <th scope="row">Álvaro Torres </th>
+        <td>Ya fue bastante</td>
+        <td>2022</td>
+        <td><button  class="fancy-button"><a href="Spotify: https://open.spotify.com/album/15u5PMNoY2oi3WBD21Ccuj">Spotify </a></button></td>
+      </tr>
+
+      <tr>
+        <th scope="row">Fiebre Amarilla </th>
+        <td>Yellow Fever</td>
+        <td>2022</td>
+        <td><button  class="fancy-button"><a href="https://open.spotify.com/album/5aniVU7dyiznmon8FKZwYe">Spotify </a></button></td>
+      </tr>
+    
+
+    
+    </tbody>
+    
+  </table>
+
+<!--Parte tomado de la plantilla --> 
+  <div class="events parallax-three pad" id="events">
+    <div class="container">
+      <!-- default heading -->
+      <div class="default-heading-shadow">
+        <!-- heading -->
+        <h2>Novedades: Proximos eventos</h2>
+      </div>
+     
+              <!-- start event 1 -->
+              <div class="event-info">
+                <!-- event title -->
+                <h3>Espirítu Libre </h3>
+                <!-- horizontal line --><hr />
+                <!-- paragraph -->
+                <p>Las bandas Oro Solido con Espiritu Libre y otras bandas  nos deleitaran con sus éxitos. No te lo pierdas!<a href="#">más</a></p>
+                <!-- buy ticket button link -->
+                <button href="#bookTicket" class="btn btn-lg btn-theme" data-toggle="modal" ><a href="https://ticketon.com/event/pupusa-fest-daly-city-ca-2024-08-04-zykkckase42o?afflcode=1630580f05204fdcb54c799ec081daaa">Comprar entrada</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <!-- event item -->
+            <div class="events-item ">
+              <!-- image container -->
+              <div class="figure">
+                <!-- event date -->
+                <div class="event-date">
+                  4 <span class="emonth">Agosto de 2024</span>
+                  <div class="clearfix"></div>
+                  <!-- time -->
+                  <span class="etime">12:00</span>
+                </div>
+                <!-- event location -->
+                <span class="event-location"><i class="fa fa-map-marker"></i>Cow Palace, Dala City,CA, US</span>
+                <!-- image, pendiente de poner-->
+                <img class="img-responsive" src="img/event/2.jpg" alt="" />
+                <!-- image hover -->
+                <div class="img-hover">
+                  <!-- hover icon -->
+                  <a href="#"><i class="fa fa-play-circle"></i></a>
+                </div>
+              </div>
+              <!-- the end event 1  --> 
+
+              <!-- start event 2-->
+              <div class="event-info">
+                <!-- event title -->
+                <h3>Tito Flores y Orquesta San Vicente. </h3>
+                <!-- horizontal line --><hr />
+                <!-- paragraph -->
+                <p>Ven y acompaños a recordar éxitos de estas renombradas bandas conocidas a nivel mundial.No te pierdas la oportunidad de liberar el estres con nosotros.<a href="#">más</a></p>
+                <!-- buy ticket button link -->
+                <button href="https://www.bandsintown.com/e/1032506810?app_id=spt_feed&came_from=281" class="btn btn-lg btn-theme" data-toggle="modal" ><a href="https://ticketon.com/event/pupusa-fest-daly-city-ca-2024-08-04-zykkckase42o?afflcode=1630580f05204fdcb54c799ec081daaa">Comprar entrada</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <!-- event item -->
+            <div class="events-item ">
+              <!-- image container -->
+              <div class="figure">
+                <!-- event date -->
+                <div class="event-date">
+                  <span class="emonth">07 de Septiembre de 2024</span>
+                  <div class="clearfix"></div>
+                  <!-- time -->
+                  <span class="etime">21:00</span>
+                </div>
+                <!-- event location -->
+                <span class="event-location"><i class="fa fa-map-marker"></i>Rancho Las Rosas, Hillsboro,OR,US</span>
+                <!-- image, pendiente de poner-->
+                <img class="img-responsive" src="img/event/2.jpg" alt="" />
+                <!-- image hover -->
+                <div class="img-hover">
+                  <!-- hover icon -->
+                  <a href="#"><i class="fa fa-play-circle"></i></a>
+                </div>
+              </div>
+              <!-- the end event 2--> 
+
+              <!-- start event 3-->
+              <div class="event-info">
+                <!-- event title -->
+                <h3> Los Hermanos Flores con Orquesta San Vicente</h3>
+                <!-- horizontal line --><hr />
+                <!-- paragraph -->
+                <p>Baila al ritmo de las canciones de estas famosas bandas, no te lo pierdas!<a href="#">más</a></p>
+                <!-- buy ticket button link -->
+                <button href="https://www.tickeri.com/events/bwwwz7hurie2/los-hermanos-flores-y-orquesta-san-vicente-en-seattle" class="btn btn-lg btn-theme" data-toggle="modal" ><a href="https://ticketon.com/event/pupusa-fest-daly-city-ca-2024-08-04-zykkckase42o?afflcode=1630580f05204fdcb54c799ec081daaa">Comprar entrada</a></button>
+              </div>
+           </div>
+        </div>
+              <div class="col-md-6 col-sm-6">
+              <!-- event item -->
+              <div class="events-item ">
+              <!-- image container -->
+              <div class="figure">
+                <!-- event date -->
+                <div class="event-date">
+                  <span class="emonth">06 de Septiembre</span>
+                  <div class="clearfix"></div>
+                  <!-- time -->
+                  <span class="etime">21:00</span>
+                </div>
+                <!-- event location -->
+                <span class="event-location"><i class="fa fa-map-marker"></i>El Metropolian Banquet Hall LLC, Renton, WA, US</span>
+                <!-- image, pendiente de poner-->
+                <img class="img-responsive" src="img/event/2.jpg" alt="" />
+                <!-- image hover -->
+                <div class="img-hover">
+                  <!-- hover icon -->
+                  <a href="#"><i class="fa fa-play-circle"></i></a>
+                </div>
+              </div>
+              <!-- the end event 3--> 
+
+              <!-- start event 4-->
+              <div class="event-info">
+                <!-- event title -->
+                <h3>Álvaro Torres </h3>
+                <!-- horizontal line --><hr />
+                <!-- paragraph -->
+                <p>Ven y disfruta de las baladas románticas pertenecientes a la gira llamada "Ya fue suficiente", en donde podrás conocer nuevos lanzamientos de tu artista salvadoreño favorito.<a href="#">más</a></p>
+                <!-- buy ticket button link -->
+                <button href="https://www.tickeri.com/events/i4h1gyc877e3/alvaro-torres-en-concierto-" class="btn btn-lg btn-theme" data-toggle="modal" ><a href="https://ticketon.com/event/pupusa-fest-daly-city-ca-2024-08-04-zykkckase42o?afflcode=1630580f05204fdcb54c799ec081daaa">Comprar entrada</a></button>
+              </div>
+           </div>
+         </div>
+              <div class="col-md-6 col-sm-6">
+              <!-- event item -->
+              <div class="events-item ">
+              <!-- image container -->
+              <div class="figure">
+                <!-- event date -->
+                <div class="event-date">
+                  <span class="emonth">7 de septiembre 2024.</span>
+                  <div class="clearfix"></div>
+                  <!-- time -->
+                  <span class="etime">21:00</span>
+                </div>
+                <!-- event location -->
+                <span class="event-location"><i class="fa fa-map-marker"></i>Rancho Las Rosas, Hillsboro,OR,US</span>
+                <!-- image, pendiente de poner-->
+                <img class="img-responsive" src="img/event/2.jpg" alt="" />
+                <!-- image hover -->
+                <div class="img-hover">
+                  <!-- hover icon -->
+                  <a href="#"><i class="fa fa-play-circle"></i></a>
+                </div>
+              </div>
+              <!-- the end event 4--> 
+
+              <!-- start event 5-->
+              <div class="event-info">
+                <!-- event title -->
+                <h3>Álvaro Torres </h3>
+                <!-- horizontal line --><hr />
+                <!-- paragraph -->
+                <p>Ven y disfruta de las baladas románticas pertenecientes a la gira llamada "Ya fue suficiente", en donde podrás conocer nuevos lanzamientos de tu artista salvadoreño favorito.<a href="#">más</a></p>
+                <!-- buy ticket button link -->
+                <button href="&camefrom=CFC_BUYAT_296934&impradid=296934&REFERRAL_ID=tmfeedbuyat296934&wt.mc_id=aff_BUYAT_296934&impradname=Spotify&ircid=4272" class="btn btn-lg btn-theme" data-toggle="modal" ><a href="https://ticketon.com/event/pupusa-fest-daly-city-ca-2024-08-04-zykkckase42o?afflcode=1630580f05204fdcb54c799ec081daaa">Comprar entrada</a></button>
+           </div>
+          </div>
+        </div>
+              <div class="col-md-6 col-sm-6">
+              <!-- event item -->
+              <div class="events-item ">
+              <!-- image container -->
+              <div class="figure">
+                <!-- event date -->
+                <div class="event-date">
+                  <span class="emonth">14 de Septiembre de 2024</span>
+                  <div class="clearfix"></div>
+                  <!-- time -->
+                  <span class="etime">20:00</span>
+                </div>
+                <!-- event location -->
+                <span class="event-location"><i class="fa fa-map-marker"></i>Alex Theatre, Glendale,CA,US</span>
+                <!-- image, pendiente de poner-->
+                <img class="img-responsive" src="img/event/2.jpg" alt="" />
+                <!-- image hover -->
+                <div class="img-hover">
+                  <!-- hover icon -->
+                  <a href="#"><i class="fa fa-play-circle"></i></a>
+                </div>
+              </div>
+              <!-- the end event 5--> 
+              
+              
+              <!-- start event 6 -->
+              <div class="event-info">
+                <!-- event title -->
+                <h3>Hermanos Flores </h3>
+                <!-- horizontal line --><hr />
+                <!-- paragraph -->
+                <p>No te pierdas la oportunidad de disfrutar los éxitos de tu banda salvadoreña favorita. Baila al ritmo de sus melodias.<a href="#">más</a></p>
+                <!-- buy ticket button link -->
+                <button href="https://www.tickeri.com/events/sv5mrbzd72k1/los-hermanos-flores-y-la-tenchis-en-brentwood-ny" class="btn btn-lg btn-theme" data-toggle="modal" ><a href="https://www.tickeri.com/events/sv5mrbzd72k1/los-hermanos-flores-y-la-tenchis-en-brentwood-ny">Comprar entrada</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <!-- event item -->
+            <div class="events-item ">
+              <!-- image container -->
+              <div class="figure">
+                <!-- event date -->
+                <div class="event-date">
+                  4 <span class="emonth">21 de Septiembre de 2024</span>
+                  <div class="clearfix"></div>
+                  <!-- time -->
+                  <span class="etime">21:00</span>
+                </div>
+                <!-- event location -->
+                <span class="event-location"><i class="fa fa-map-marker"></i>La Espiguita Hall, Brentwood, NY, US</span>
+                <!-- image, pendiente de poner-->
+                <img class="img-responsive" src="img/event/2.jpg" alt="" />
+                <!-- image hover -->
+                <div class="img-hover">
+                  <!-- hover icon -->
+                  <a href="#"><i class="fa fa-play-circle"></i></a>
+                </div>
+              </div>
+              <!-- the end event 6  --> 
+
+              <!-- start event 7 -->
+              <div class="event-info">
+                <!-- event title -->
+                <h3>Grupo Cañaberal de Humberto Pabón y los Hermanos Flores </h3>
+                <!-- horizontal line --><hr />
+                <!-- paragraph -->
+                <p>Las bandas se unen para invitarte a que disfrutes de sus éxitos.<a href="#">más</a></p>
+                <!-- buy ticket button link -->
+                <button href="https://www.bandsintown.com/e/1032392864?app_id=spt_feed&came_from=281" class="btn btn-lg btn-theme" data-toggle="modal" ><a href="https://www.bandsintown.com/e/1032392864?app_id=spt_feed&came_from=281">Comprar entrada</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <!-- event item -->
+            <div class="events-item ">
+              <!-- image container -->
+              <div class="figure">
+                <!-- event date -->
+                <div class="event-date">
+                  4 <span class="emonth">22 de Septiembre 2024</span>
+                  <div class="clearfix"></div>
+                  <!-- time -->
+                  <span class="etime">17:30</span>
+                </div>
+                <!-- event location -->
+                <span class="event-location"><i class="fa fa-map-marker"></i>Hollywood Bowl, Los Angeles, CA, US</span>
+                <!-- image, pendiente de poner-->
+                <img class="img-responsive" src="img/event/2.jpg" alt="" />
+                <!-- image hover -->
+                <div class="img-hover">
+                  <!-- hover icon -->
+                  <a href="#"><i class="fa fa-play-circle"></i></a>
+                </div>
+              </div>
+              <!-- the end event 7  --> 
+              
+               <!-- start event 8-->
+               <div class="event-info">
+                <!-- event title -->
+                <h3>Álvaro Torres y Lenier Mesa </h3>
+                <!-- horizontal line --><hr />
+                <!-- paragraph -->
+                <p>Ven y disfruta de la combinaciín de tus artistas favoritos. No te lo pierdas!<a href="#">más</a></p>
+                <!-- buy ticket button link -->
+                <button href="https://www.bandsintown.com/e/1032392864?app_id=spt_feed&came_from=281" class="btn btn-lg btn-theme" data-toggle="modal" ><a href="https://www.bandsintown.com/e/1032392864?app_id=spt_feed&came_from=281">Comprar entrada</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <!-- event item -->
+            <div class="events-item ">
+              <!-- image container -->
+              <div class="figure">
+                <!-- event date -->
+                <div class="event-date">
+                  4 <span class="emonth">31 de marzo del 2025</span>
+                  <div class="clearfix"></div>
+                  <!-- time -->
+                  <span class="etime">19:00</span>
+                </div>
+                <!-- event location -->
+                <span class="event-location"><i class="fa fa-map-marker"></i>Cambier Park
+                  755 8th Avenue South
+                  Naples, Florida 34102</span>
+                <!-- image, pendiente de poner-->
+                <img class="img-responsive" src="img/event/2.jpg" alt="" />
+                <!-- image hover -->
+                <div class="img-hover">
+                  <!-- hover icon -->
+                  <a href="#"><i class="fa fa-play-circle"></i></a>
+                </div>
+              </div>
+              <!-- the end event 8  -->
+              
+                             
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- events end -->
+</body>
