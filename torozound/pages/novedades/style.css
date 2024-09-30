@@ -1,0 +1,433 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{ 
+  
+  background: linear-gradient(110deg, rgba(27,209,176,1) 2%, rgba(55,10,64,1) 51%, rgba(215,20,98,1) 95%);
+  }
+
+.title 
+ {
+  font-size: 300%;
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+     justify-content: center;
+     align-items: center;
+     background-color: black;
+    height: 200px;
+    
+    font-family: "Orbitron", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+      color: cornsilk;
+    
+  }
+    
+
+.title {
+  border: 30px;
+  margin: 50px 0 60px  0;
+}
+
+table {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table {
+  font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+justify-content: center;
+color: white
+}
+
+th, td {
+  padding: 8px 10px; 
+  text-align: left;
+  font-size: 15px;
+}
+
+th {
+   /* Example header color */
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color:  rgba(55,10,64,1);
+  
+}
+
+tr:hover {
+  background-color: rgba(55,10,64,1);
+}
+
+
+.fancy-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.fancy-button:hover {
+  background-color: #1ed760; /* Brighter green */
+}
+
+.fancy-button img {
+  margin-right: 5px;
+  width: 20px; /* Adjust size as needed */
+}
+
+@media (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+      display: block;
+  }
+
+  th {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+  }
+
+  tr {
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+  }
+
+  td {
+      text-align: right;
+      position: relative;
+      padding-left: 50%;
+  }
+
+  td:before {
+      content: attr(data-label);
+      position: absolute;
+      left: 10px;
+      width: calc(50% - 20px);
+      padding-left: 10px;
+      text-align: left;
+      font-weight: bold;
+  }
+}
+
+/* Eventos*/
+
+.music {
+font-size: 300%;
+  display: flex;
+  flex-direction: row;
+   justify-content: center;
+   justify-content: center;
+   align-items: center;
+  margin:10px 0 10px 0 ;
+  background-color: black;
+  height: 200px;
+  
+  font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: cornsilk;
+  
+}
+
+
+
+.btn a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Ensure text color matches the button */
+}
+
+.btn a:hover {
+  text-decoration: underline; /* Optional: underline on hover */
+}
+
+.free {
+  background:none;
+  border-radius: 10px;
+  color:white;
+  font-family: "Play", system-ui;
+   font-weight: 400;
+   font-style: normal;
+}
+ 
+.free {
+  font-size: 15px;
+  flex-direction: row;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+  
+.free {
+  margin: 20px;
+  margin-left: 40px;
+}
+ .card-body{
+  margin: 20px;;
+  justify-content: space-between;
+ 
+ }
+
+ .flores {
+  background:none;
+  border-radius: 10px;
+  border: none;
+  color:white;
+  font-family: "Play", system-ui;
+   font-weight: 400;
+   font-style: normal;
+}
+ 
+ .flores{
+  font-size: 15px;
+  flex-direction: row;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+  
+.flores {
+  margin: 30px;
+  margin-left: 120px;
+  
+  
+}
+ .card-body{
+    margin: 20px;
+  justify-content: space-between;
+ 
+ }
+ 
+
+ .fila {
+  display: flex;
+  flex-direction: row;
+}
+
+.fila > div {
+  width: 50%;
+  
+}
+
+
+
+ .tito {
+  background:none;
+  border-radius: 10px;
+  border: none;
+  color:white;
+  font-family: "Play", system-ui;
+   font-weight: 400;
+   font-style: normal;
+}
+ 
+ .tito{
+  font-size: 15px;
+  flex-direction: row;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+  
+.tito {
+  margin: 30px;
+  margin-left: 40px;
+  
+}
+ .card-body{
+  margin: 20px;;
+  justify-content: space-between;
+ 
+ }
+ 
+.torre {
+  background:none;
+  border-radius: 10px;
+  border: none;
+  color:white;
+  font-family: "Play", system-ui;
+   font-weight: 400;
+   font-style: normal;
+}
+ 
+.torre{
+ font-size: 15px;
+ flex-direction: row;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+  
+.torre {
+  margin: 30px;
+  margin-left: 40px;
+  
+}
+.card-body{
+  margin: 20px;;
+  justify-content: space-between;
+ 
+ }
+
+ .fila_2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.fila_2> div {
+  width: 50%;
+  
+}
+
+.torre_1 {
+  background:none;
+  border-radius: 10px;
+  border: none;
+  color:white;
+  font-family: "Play", system-ui;
+   font-weight: 400;
+   font-style: normal;
+}
+ 
+.torre_1{
+ font-size: 15px;
+ flex-direction: row;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+  
+.torre_1 {
+  margin: 30px;
+  margin-left: 40px;
+  
+}
+.card-body{
+  margin: 20px;;
+  justify-content: space-between;
+ 
+ }
+
+ .flores_1 {
+  background:none;
+  border-radius: 10px;
+  border: none;
+  color:white;
+  font-family: "Play", system-ui;
+   font-weight: 400;
+   font-style: normal;
+}
+ 
+.flores_1{
+ font-size: 15px;
+ flex-direction: row;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+  
+.flores_1 {
+  margin: 30px;
+  margin-left: 40px;
+  
+}
+.card-body{
+  margin: 20px;;
+  justify-content: space-between;
+ 
+ }
+
+ .fila_3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.fila_3 > div {
+  width: 50%;
+  
+}
+
+
+.pabon {
+  background:none;
+  border-radius: 10px;
+  border: none;
+  color:white;
+  font-family: "Play", system-ui;
+   font-weight: 400;
+   font-style: normal;
+}
+ 
+.pabon{
+ font-size: 15px;
+ flex-direction: row;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+  
+.pabon {
+  margin: 30px;
+  margin-left: 40px;
+  
+}
+.card-body{
+  margin: 20px;;
+  justify-content: space-between;
+ 
+ }
+
+ .torres_2 {
+  background:none;
+  border-radius: 10px;
+  border: none;
+  color:white;
+  font-family: "Play", system-ui;
+   font-weight: 400;
+   font-style: normal;
+}
+ 
+.torres_2{
+ font-size: 15px;
+ flex-direction: row;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+  
+.torres_2 {
+  margin: 30px;
+  margin-left: 40px;
+  
+}
+.card-body{
+  margin: 20px;;
+  justify-content: space-between;
+ 
+ }
+
+ .fila_4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.fila_4 > div {
+  width: 50%;
+  
+}
+
+
+

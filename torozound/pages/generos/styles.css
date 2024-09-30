@@ -1,0 +1,210 @@
+
+:root {
+    --primary-color: #000000; 
+    --secondary-color: #0E0837; 
+    --highlight-color: #FF4081; 
+    --text-color: #E0E0E0; 
+    --background-gradient: linear-gradient(135deg, #000000, #0E0837); 
+    --card-background: rgba(255, 255, 255, 0.1); 
+    --white-color: #FFFFFF; 
+    --shadow-color: rgba(0, 0, 0, 0.4); 
+    --light-purple: #D1B3FF; 
+}
+
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: var(--background-gradient);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+
+.artist-card p, 
+.artist-card ul {
+    color: var(--light-purple); 
+}
+
+.artist-card ul li a {
+    color: var(--light-purple); 
+}
+
+
+
+
+header {
+    background-color: var(--primary-color);
+    padding: 40px 20px;
+    text-align: center;
+    color: var(--white-color);
+    box-shadow: 0 6px 20px var(--shadow-color);
+    background: var(--background-gradient);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+nav ul li {
+    transition: transform 0.3s ease;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--highlight-color);
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--white-color);
+    text-shadow: 0 0 5px var(--highlight-color);
+}
+
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--highlight-color);
+    margin-bottom: 50px;
+    font-size: 2.6em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(var(--primary-color), var(--highlight-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.artist-card {
+    background-color: var(--card-background);
+    border-radius: 16px;
+    box-shadow: 0 8px 24px var(--shadow-color);
+    padding: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    backdrop-filter: blur(15px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.artist-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.6);
+}
+
+.artist-card h3 {
+    color: var(--white-color);
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.artist-card img {
+    border-radius: 16px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+    border: 2px solid var(--highlight-color);
+}
+
+.artist-card p {
+    color: var(--text-color);
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.artist-card a {
+    color: var(--highlight-color);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: 2px solid var(--highlight-color);
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.artist-card a:hover {
+    background-color: var(--highlight-color);
+    color: var(--white-color);
+}
+
+/* Animaciones */
+.artist-card {
+    animation: fadeInUp 0.6s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Pie de página */
+footer {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 30px;
+    text-align: center;
+    margin-top: 60px;
+    box-shadow: 0 -6px 20px var(--shadow-color);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .artist-card {
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+    
+    h2 {
+        font-size: 2.2em;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+}

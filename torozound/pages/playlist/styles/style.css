@@ -1,0 +1,466 @@
+/* orbitron-latin-wght-normal */
+@font-face {
+  font-family: 'Orbitron Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/orbitron:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* play-latin-400-normal */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/play@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/play@latest/latin-400-normal.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+body {
+  font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding-top: 2%;
+    background: black; 
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.header-main nav {
+  display: flex;
+  gap: 40px;
+  font-weight: 700;
+  font-family: 'Orbitron Variable', sans-serif;
+}
+
+.header-main nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-main nav .select {
+  color: #D71462;
+}
+
+.hero-section {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.hero-section .hero-text .main{
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 40px;
+  max-width: 400px;
+  line-height: 72px;
+  font-family: 'Orbitron Variable', sans-serif;
+}
+
+.hero-section .hero-text span{
+  color: #D71462;
+}
+.hero-section .hero-text .sub {
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 21px;
+  font-family: 'Play', sans-serif;
+  font-weight: 400;
+
+
+}
+
+.card-section {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.card-section a {
+  text-decoration: none;
+}
+.card-section .singer-card {
+  width: 232px;
+  height: 262px;
+  background: #560C46;
+  border-radius: 34px;
+  overflow: hidden;
+}
+.card-section .singer-card .image-card {
+  display: flex;
+  justify-content: center;
+}
+.card-section .singer-card .image-card img {
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+  height: 168px;
+}
+
+.card-section .singer-card .text-card {
+  display: flex;
+  flex-direction: column;
+  background: #1D1D1D87;
+  height: 100%;
+}
+
+.card-section .singer-card .text-card .singer-name{
+  color: #ffffff;
+  font-family: "Play", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+.card-section .singer-card .text-card .singer-song{
+  color: #ffffff;
+  font-family: "Play", sans-serif;
+  opacity: 0.8;
+  padding-left: 10px;
+  margin-top: -10px;
+}
+
+.play-section {
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 160px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.play-section h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  font-family: "Orbitron Variable", sans-serif;
+}
+.play-section .table-songs {
+  width: 100%;
+}
+
+.play-section .table-songs table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Play", sans-serif;
+}
+.play-section .table-songs table tbody tr:nth-child(odd) {
+  background: linear-gradient(to right, rgba(14, 8, 55, 0.6) 40%, rgba(215, 20, 98, 0.6));
+  color: white;
+}
+
+.play-section .table-songs table tbody tr:nth-child(even) {
+  background: #000000;
+  color: white;
+}
+
+.play-section .table-songs table tbody td {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-family: 'Play', sans-serif;
+}
+
+.play-section .table-songs table tbody td .flex {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.play-section .card-songs {
+  width: 100%;
+  height: 100%;
+ }
+ .play-section .card-songs .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2;
+  gap: 1rem; /* Ajusta el tamaño del gap según tus necesidades */
+ }
+ .grid-item-1 {
+  grid-column: span 2; /* Ocupa ambas columnas en la primera fila */
+}
+
+.grid-item-2, .grid-item-3 {
+  grid-column: span 1; /* Ocupan una columna cada uno en la segunda fila */
+}
+.play-section .card-songs h2{
+ color: #BC1256;
+ font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+
+.play-section .card-songs .card-horizontal-large {
+  display: flex;
+  align-items: center;
+  background: #560C46A3;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.play-section .card-songs .card-horizontal-large div {
+  margin-left: 30px;
+}
+
+.play-section .card-songs .card-horizontal-large div .singer-name{
+  color: #ffffff;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.play-section .card-songs .card-horizontal-large div .singer-song{
+  color: #BC1256;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.play-section .card-songs .card-horizontal-small {
+  display: flex;
+  align-items: center;
+  background: #560C4642;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+}
+.play-section .card-songs .card-horizontal-small div {
+  margin-left: 30px;
+}
+.play-section .card-songs .card-horizontal-small img {
+  margin-left: 10px;
+}
+
+.play-section .card-songs .card-horizontal-small div .singer-name{
+  color: #ffffff;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.play-section .card-songs .card-horizontal-small div .singer-song{
+  color: #BC1256;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.play-section .card-songs .card-horizontal-small div img{
+  width: 38px;
+  height: 38px;
+}
+
+.artistas-section h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-family: "Orbitron Variable", sans-serif;
+  display: inline-block;
+}
+.artistas-section .titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.artistas-section .buscador {
+  display: flex;
+  justify-content: space-between;
+  gap: 1%;
+  width: 50%;
+  align-items: center;
+  padding-right: 5%;
+}
+.artistas-section .buscador input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 20px;
+  font-family: "Play", sans-serif;
+  font-size: 16px;
+}
+.artistas-section .buscador button {
+  background: #D71462;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-family: "Play", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.artistas{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.artistas .singer-card {
+  width: 232px;
+  height: 262px;
+  background: #560C46;
+  border-radius: 34px;
+  overflow: hidden;
+}
+.artistas .singer-card .image-card {
+  display: flex;
+  justify-content: center;
+}
+.artistas .singer-card .image-card img {
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+  height: 168px;
+}
+
+.artistas .singer-card .text-card {
+  display: flex;
+  flex-direction: column;
+  background: #1D1D1D87;
+  height: 100%;
+}
+
+.artistas .singer-card .text-card .singer-name{
+  color: #ffffff;
+  font-family: "Play", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+.artistas .singer-card .text-card .singer-song{
+  color: #ffffff;
+  font-family: "Play", sans-serif;
+  opacity: 0.8;
+  padding-left: 10px;
+  margin-top: -10px;
+}
+
+.card-section .singer-card .text-card a{
+  text-decoration: none;
+}
+
+.artistas a {
+  text-decoration: none;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #151515;
+  padding-top: 50px;
+  padding-left: 80px;
+  width: 100vw;
+  margin-top: 160px;
+}
+
+.footer-content {
+  display: flex;
+  width: 100%;
+  align-content: center;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.main-text, .sub-text {
+  color: white;
+  font-family: 'Play', sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.sub-text {
+  font-size: 20px;
+}
+
+.contact-button-container {
+  margin-bottom: 14px;
+}
+
+.contact-button {
+  background-color: #C5125C;
+  border-radius: 40px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.right-section {
+  border-top: 2px solid #C5125C;
+  border-left: 2px solid #C5125C;
+  border-top-left-radius: 128px;
+  width: 100%;
+  padding: 14px;
+  display: flex;
+  gap: 48px;
+}
+
+.address-section, .social-media-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 30px;
+}
+
+.address-title, .social-media-title {
+  color: #C5125C;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.address-details .address-line {
+  color: white;
+  font-size: 18px;
+  font-weight: medium;
+  font-family: 'Inter', sans-serif;
+}
+
+.copyright {
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: 'Inter', sans-serif;
+  margin-top: 60px;
+  opacity: 0.6;
+}
+
+.social-media-buttons {
+  display: flex;
+  gap: 2px;
+}
+
+.insta-button, .whatsapp-button, .telegram-button {
+  width: 24px;
+  height: 24px;
+  background-color: #C5125C;
+  border-radius: 50%;
+}
