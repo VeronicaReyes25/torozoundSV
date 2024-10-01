@@ -94,7 +94,7 @@ const artistas =[
   },
   {
     "nombre": "Ricardo Solé",
-    "img": "artistas-torozound/ricardo.jpeg",
+    "img": "artistas-torozound/nofound.jpg",
     "url": "https://album.link/xs87h95w2fdh9",
     "canciones": 20
   },
@@ -142,7 +142,7 @@ const artistas =[
   },
   {
     "nombre": "TH MUSICA",
-    "img": "artistas-torozound/th.jpg",
+    "img": "artistas-torozound/nofound.jpg",
     "url": "https://album.link/xs87h95w2fdh9",
     "canciones": 20
   },
@@ -183,7 +183,7 @@ artistas.forEach(artist => {
   const card = document.createElement('div');
   card.classList.add('card');
   card.innerHTML = `
-    <a href=${artist.url}>
+    <a href=${artist.url} target="_blank">
       <article class="singer-card">
         <div  class="image-card">
           <img src="/public/singers/${artist.img}" alt="cantante-${artist.nombre}" class="object-cover h-[168px]"/>
