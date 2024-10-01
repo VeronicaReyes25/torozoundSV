@@ -186,7 +186,7 @@ artistas.forEach(artist => {
     <a href=${artist.url} target="_blank">
       <article class="singer-card">
         <div  class="image-card">
-          <img src="/public/singers/${artist.img}" alt="cantante-${artist.nombre}" class="object-cover h-[168px]"/>
+          <img src="./public/singers/${artist.img}" alt="cantante-${artist.nombre}" class="object-cover h-[168px]"/>
         </div>
         <div  class="text-card">
           <p class="singer-name">${artist.nombre}</p>
